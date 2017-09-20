@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd  ">
+
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="false" />
+	<constant name="struts.convention.action.packages" value="com.iqmsoft.struts.spring.web.action" />
+	<constant name="struts.convention.result.path" value="/WEB-INF/views/" />
+
+	<package name="ssh2-default" extends="convention-default,json-default"
+		namespace="/">
+	</package>
+</struts>
